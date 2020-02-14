@@ -33,3 +33,35 @@ data = df.filter(['Close'])
 dataset = data.values
 
 
+#Scale the data 
+
+scaler = MinMaxScaler(feature_range = (0,1))
+
+scaled_data = scaler.fit_transform(dataset)
+
+
+#create the training dataset 
+
+#Create the scaled training data set
+
+train_data = scaled_data[0:training_data_len, :]
+
+#split the data into x_train and y_train data sets 
+x_train = []
+y_train = []
+
+for i in range(60, len(train_data)):
+    x_train.append(train_data[i - 60: i,0])
+    y_train.append(train_data[i,0])
+
+    if i <= 60:
+        print(x_train)
+        print(y_train)
+        print()
+
+    #convert x_train and y_train to numpy arrays 
+
+x_train, y_train = np.array(x_train),np.array(y_train)
+
+#reshape the data 
+
