@@ -62,6 +62,12 @@ for i in range(60, len(train_data)):
     #convert x_train and y_train to numpy arrays 
 
 x_train, y_train = np.array(x_train),np.array(y_train)
+x_train = np.reshape(x_train, (x_train.shape[0], x_train.shape[1],1))
 
-#reshape the data 
+x_train.shape()
 
+#build the LSTM model
+
+model = Sequential()
+
+model.add(LSTM(50, return_sequences = True, input_shape(x_train.shape[1],1)))
