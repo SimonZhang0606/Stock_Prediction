@@ -3,7 +3,7 @@
 Stock price prediction using LSTM implemented in keras with TF backend on daily closing price of Apple data from Jan 2012 to December 2019 in order to predict the future prices 
 
 ## Data Used: 
-(what the graph looks like)
+![Model screenshot](/screenshots/closing.png)
 
 ## Result: 
 (what the result looks like)
