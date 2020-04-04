@@ -1,3 +1,9 @@
+"""
+Created on April 4 2020
+@author: SimonZhang0606
+Predicts the next day (closing) stock prices for APPL data using LSTM,
+"""
+
 #modules that i can think of for now
 import math 
 import pandas_datareader as web
