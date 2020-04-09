@@ -8,7 +8,7 @@ Stock price prediction using LSTM implemented in keras with TF backend on daily 
 ## Result: 
 (what the result looks like)
 
-## What model was being used: 
+## What Machine Learning model was being used: 
 LSTM 
 
 ## Requirements/Dependencies:
