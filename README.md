@@ -10,7 +10,7 @@ Note: the model is in no way fit for real life monetary purposes, it is simply a
 Root Mean Squared Error: 5.2512883377075195
 ![Model screenshot](/screenshot/result.png)
 
-## What Machine Learning model was being used: 
+## Machine Learning model used: 
 LSTM 
 
 ## Requirements/Dependencies:
