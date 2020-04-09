@@ -4,7 +4,7 @@ Stock price prediction using LSTM implemented in keras with TF backend on daily 
 Note: the model is in no way fit for real life monetary purposes, it is simply an excuse to try out using LSTM models
 
 ## Data Used: 
-![Model screenshot](/screenshot/Closing_price_history.png)
+![Model screenshot](/screenshot/data.png)
 
 ## Result: 
 Root Mean Squared Error: 5.25
