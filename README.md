@@ -7,7 +7,7 @@ Note: the model is in no way fit for real life monetary purposes, it is simply a
 ![Model screenshot](/screenshot/Closing_price_history.png)
 
 ## Result: 
-Root Mean Squared Error: 5.2512883377075195
+Root Mean Squared Error: 5.25
 ![Model screenshot](/screenshot/result.png)
 
 ## Machine Learning model used: 
