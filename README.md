@@ -6,7 +6,8 @@ Stock price prediction using LSTM implemented in keras with TF backend on daily 
 ![Model screenshot](/screenshot/Closing_price_history.png)
 
 ## Result: 
-Root Mean Squared Error: 5.2512883377075195
+###Root Mean Squared Error: 5.2512883377075195
+![Model screenshot](/screenshot/result.png)
 
 ## What Machine Learning model was being used: 
 LSTM 
